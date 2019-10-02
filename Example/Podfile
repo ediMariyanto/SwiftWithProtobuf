@@ -6,9 +6,11 @@ target 'SwiftWithProtobuf_Example' do
   target 'SwiftWithProtobuf_Tests' do
     inherit! :search_paths
 
+    pod 'SwiftProtobuf', '~> 1.6.0'
     pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0'
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 6.3.0'
   end
 end
+
